@@ -1,0 +1,6 @@
+---- VolToPart Matches (5 in 4 files) ----
+ff.c (Middlewares\Third_Party\FatFs\src) line 474 : #define LD2PD(vol) VolToPart[vol].pd	/* Get physical drive number */
+ff.c (Middlewares\Third_Party\FatFs\src) line 475 : #define LD2PT(vol) VolToPart[vol].pt	/* Get partition index */
+ff.h (Middlewares\Third_Party\FatFs\src) line 44 : extern PARTITION VolToPart[];	/* Volume - Partition resolution table */
+ffconf.h (Inc) line 208 : /  arbitrary physical drive and partition listed in the VolToPart[]. Also f_fdisk()
+ffconf_template.h (Middlewares\Third_Party\FatFs\src) line 212 : /  arbitrary physical drive and partition listed in the VolToPart[]. Also f_fdisk()
